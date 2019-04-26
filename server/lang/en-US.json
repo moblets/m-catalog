@@ -25,5 +25,12 @@
     "label": "Description",
     "hint": "Item description",
     "placeholder": "My description"
+  },
+  "listStyle": {
+    "label": "List style",
+    "hint": "Choose the content list style",
+    "placeholder": "Choose a style",
+    "list_type_1": "Default list",
+    "list_type_2": "Card list"
   }
 }

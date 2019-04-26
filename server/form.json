@@ -29,7 +29,7 @@
           "maxlength": 50
         },
         {
-          "name": "promo-value",
+          "name": "promoValue",
           "type": "text",
           "maxlength": 50
         },
@@ -41,6 +41,15 @@
           "maxlength": 12000
         }
       ]
+    },
+    {
+      "name": "listStyle",
+      "type": "select",
+      "required": true,
+      "values": {
+        "layout-1": "list_type_1",
+        "layout-2": "list_type_2"
+      }
     }
   ]
 }
