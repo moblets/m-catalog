@@ -1,0 +1,26 @@
+{
+  "moblet": {
+    "label": "Catalog",
+    "hint": "Create a catalog",
+    "description": "Fill the fields below to create a catalog"
+  },
+  "items": {
+    "label": "Product list",
+    "hint": "Insert the product",
+    "list_button": "Add items"
+  },
+  "title": {
+    "label": "Título do produto"
+  },
+  "currency": {
+    "label": "Currency"
+  },
+  "value": {
+    "label": "Value"
+  },
+  "description": {
+    "label": "Description",
+    "hint": "Item description",
+    "placeholder": "My description"
+  }
+}

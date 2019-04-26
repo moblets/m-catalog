@@ -1,0 +1,41 @@
+{
+  "fields": [
+    {
+      "name": "items",
+      "type": "list",
+      "has-details": true,
+      "fields": [
+        {
+          "name": "title",
+          "type": "text",
+          "required": true,
+          "minlength": 1,
+          "maxlength": 100
+        },
+        {
+          "name": "image",
+          "type": "image",
+          "required": true,
+          "max_size": 12582912
+        },
+        {
+          "name": "currency",
+          "type": "text",
+          "maxlength": 3
+        },
+        {
+          "name": "value",
+          "type": "text",
+          "maxlength": 50
+        },
+        {
+          "name": "description",
+          "type": "rich-text",
+          "required": true,
+          "minlength": 3,
+          "maxlength": 12000
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "moblet": {
+    "label": "Catálogo",
+    "hint": "Crie um catálogo de produtos",
+    "description": "Preencha os campos abaixo para criar um catálogo de produtos"
+  },
+  "items": {
+    "label": "Lista de produtos",
+    "hint": "Insira os produtos",
+    "list_button": "Adicionar item"
+  },
+  "title": {
+    "label": "Título do produto"
+  },
+  "currency": {
+    "label": "Moeda"
+  },
+  "value": {
+    "label": "Valor"
+  },
+  "description": {
+    "label": "Descrição",
+    "hint": "Preencha com a descrição em HTML usando o editor de texto",
+    "placeholder": "Minha descrição"
+  }
+}
