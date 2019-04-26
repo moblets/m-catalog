@@ -18,6 +18,9 @@
   "value": {
     "label": "Value"
   },
+  "promo-value": {
+    "label": "Promotional value"
+  },
   "description": {
     "label": "Description",
     "hint": "Item description",

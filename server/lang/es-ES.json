@@ -18,6 +18,9 @@
   "value": {
     "label": "Valor"
   },
+  "promo-value": {
+    "label": "Valor promocional"
+  },
   "description": {
     "label": "Contenido",
     "hint": "Llenar el contenido utilizando el editor de texto",

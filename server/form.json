@@ -29,6 +29,11 @@
           "maxlength": 50
         },
         {
+          "name": "promo-value",
+          "type": "text",
+          "maxlength": 50
+        },
+        {
           "name": "description",
           "type": "rich-text",
           "required": true,
