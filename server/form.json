@@ -13,10 +13,10 @@
           "maxlength": 100
         },
         {
-          "name": "image",
-          "type": "image",
-          "required": true,
-          "max_size": 12582912
+          "name": "resume",
+          "type": "text",
+          "minlength": 1,
+          "maxlength": 30
         },
         {
           "name": "currency",
@@ -32,6 +32,12 @@
           "name": "promoValue",
           "type": "text",
           "maxlength": 50
+        },
+        {
+          "name": "image",
+          "type": "image",
+          "required": true,
+          "max_size": 12582912
         },
         {
           "name": "description",

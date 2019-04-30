@@ -12,6 +12,11 @@
   "title": {
     "label": "Título del producto"
   },
+  "resume": {
+    "label": "Descripción",
+    "hint": "Descripción del contenido",
+    "placeholder": "Mi descripción"
+  },
   "currency": {
     "label": "Moneda"
   },

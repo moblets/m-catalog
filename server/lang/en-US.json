@@ -12,6 +12,11 @@
   "title": {
     "label": "Título do produto"
   },
+  "resume": {
+    "label": "Description",
+    "hint": "Item description",
+    "placeholder": "My description"
+  },
   "currency": {
     "label": "Currency"
   },
@@ -22,9 +27,9 @@
     "label": "Promotional value"
   },
   "description": {
-    "label": "Description",
-    "hint": "Item description",
-    "placeholder": "My description"
+    "label": "Content",
+    "hint": "Fill the content with HTML using the text editor",
+    "placeholder": "My content"
   },
   "listStyle": {
     "label": "List style",
