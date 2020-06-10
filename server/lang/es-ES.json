@@ -2,7 +2,8 @@
   "moblet": {
     "label": "Catalogo",
     "hint": "Crear un catalogo",
-    "description": "Rellene los siguientes campos para crear un catálogo"
+    "description": "Rellene los siguientes campos para crear un catálogo",
+    "version": 2
   },
   "items": {
     "label": "Lista de productos",

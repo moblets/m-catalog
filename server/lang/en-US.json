@@ -2,7 +2,8 @@
   "moblet": {
     "label": "Catalog",
     "hint": "Create a catalog",
-    "description": "Fill the fields below to create a catalog"
+    "description": "Fill the fields below to create a catalog",
+    "version": 2
   },
   "items": {
     "label": "Product list",

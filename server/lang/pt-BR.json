@@ -3,7 +3,8 @@
     "label": "Catálogo",
     "hint": "Crie um catálogo de produtos",
     "description": "Preencha os campos abaixo para criar um catálogo de produtos",
-    "tutorial_link": "https://ajuda.fabapp.com/pt-BR/articles/3780079-catalogo-de-produtos"
+    "tutorial_link": "https://ajuda.fabapp.com/pt-BR/articles/3780079-catalogo-de-produtos",
+    "version": 2
   },
   "items": {
     "label": "Lista de produtos",
