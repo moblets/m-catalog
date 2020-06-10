@@ -3,48 +3,77 @@
     {
       "name": "items",
       "type": "list",
-      "has-details": true,
       "fields": [
         {
           "name": "title",
-          "type": "text",
+          "type": "input",
+          "inputType": "text",
           "required": true,
           "minlength": 1,
-          "maxlength": 100
+          "maxlength": 100,
+          "validations": [
+            { "name": "required" },
+            { "name": "minLength", "value": 1 },
+            { "name": "maxLength", "value": 100 }
+          ]
         },
         {
           "name": "resume",
-          "type": "text",
+          "type": "input",
+          "inputType": "text",
           "minlength": 1,
-          "maxlength": 30
+          "maxlength": 30,
+          "validations": [
+            { "name": "minLength", "value": 1 },
+            { "name": "maxLength", "value": 30 }
+          ]
         },
         {
           "name": "currency",
-          "type": "text",
-          "maxlength": 3
+          "type": "input",
+          "inputType": "text",
+          "maxlength": 3,
+          "validations": [{ "name": "maxLength", "value": 3 }]
         },
         {
           "name": "value",
-          "type": "text",
-          "maxlength": 50
+          "type": "input",
+          "inputType": "text",
+          "maxlength": 50,
+          "validations": [{ "name": "maxLength", "value": 50 }]
         },
         {
           "name": "promoValue",
-          "type": "text",
-          "maxlength": 50
+          "type": "input",
+          "inputType": "text",
+          "maxlength": 50,
+          "validations": [{ "name": "maxLength", "value": 50 }]
         },
         {
           "name": "image",
-          "type": "image",
+          "type": "imageUploader",
+          "api": "moblet-api",
+          "fileConfig": [
+            { "title": "requiredField" },
+            { "title": "maxSize", "value": "12MB" },
+            { "title": "fileFormat", "value": "PNG, JPG, JPEG" }
+          ],
+          "formats": ["image/png", "image/jpg", "image/jpeg", "image/gif"],
+          "maxSize": 12000000,
           "required": true,
-          "max_size": 12582912
+          "validations": [{ "name": "required" }]
         },
         {
           "name": "description",
-          "type": "rich-text",
+          "type": "richtext",
           "required": true,
           "minlength": 3,
-          "maxlength": 12000
+          "maxlength": 12000,
+          "validations": [
+            { "name": "required" },
+            { "name": "minLength", "value": 3 },
+            { "name": "maxLength", "value": 12000 }
+          ]
         }
       ]
     },
@@ -52,11 +81,12 @@
       "name": "listStyle",
       "type": "select",
       "required": true,
-      "values": {
-        "layout-1": "list_type_1",
-        "layout-2": "list_type_2",
-        "layout-3": "list_type_3"
-      }
+      "options": [
+        { "value": "list_type_1" },
+        { "value": "list_type_2" },
+        { "value": "list_type_3" }
+      ],
+      "validations": [{ "name": "required" }]
     }
   ]
 }
