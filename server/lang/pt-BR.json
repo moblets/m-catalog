@@ -36,9 +36,15 @@
   "listStyle": {
     "label": "Estilo da lista",
     "hint": "Escolha o estilo da lista de conteúdos",
-    "placeholder": "Escolha um estilo",
-    "list_type_1": "Lista padrão",
-    "list_type_2": "Lista cartão",
-    "list_type_3": "Gride"
+    "placeholder": "Escolha um estilo"
+  },
+  "list_type_1": {
+    "label": "Lista padrão"
+  },
+  "list_type_2": {
+    "label": "Lista cartão"
+  },
+  "list_type_3": {
+    "label": "Gride"
   }
 }
