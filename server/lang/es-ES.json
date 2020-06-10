@@ -36,7 +36,7 @@
     "label": "Estilo de lista",
     "hint": "Elija el estilo de lista del contenido",
     "placeholder": "Elija un estilo",
-    "option": {
+    "options": {
       "list_type_1": {
         "label": "Lista estándar"
       },

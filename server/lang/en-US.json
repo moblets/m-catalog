@@ -36,7 +36,7 @@
     "label": "List style",
     "hint": "Choose the content list style",
     "placeholder": "Choose a style",
-    "option": {
+    "options": {
       "list_type_1": {
         "label": "Default list"
       },
