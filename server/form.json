@@ -82,9 +82,9 @@
       "type": "select",
       "required": true,
       "options": [
-        { "value": "layout-1", "name": "layout-1", "label": "list_type_1" },
-        { "value": "layout-2", "name": "layout-2", "label": "list_type_2" },
-        { "value": "layout-3", "name": "layout-3", "label": "list_type_3" }
+        { "value": "layout-1", "name": "layout-1" },
+        { "value": "layout-2", "name": "layout-2" },
+        { "value": "layout-3", "name": "layout-3" }
       ],
       "validations": [{ "name": "required" }]
     }

@@ -37,13 +37,13 @@
     "hint": "Elija el estilo de lista del contenido",
     "placeholder": "Elija un estilo"
   },
-  "list_type_1": {
+  "layout-1": {
     "label": "Lista estándar"
   },
-  "list_type_2": {
+  "layout-2": {
     "label": "Lista de tarjetas"
   },
-  "list_type_3": {
+  "layout-3": {
     "label": "Cuadrícula"
   }
 }
