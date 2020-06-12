@@ -35,15 +35,15 @@
   "listStyle": {
     "label": "List style",
     "hint": "Choose the content list style",
-    "placeholder": "Choose a style"
-  },
-  "layout1": {
-    "label": "Default list"
-  },
-  "layout2": {
-    "label": "Card list"
-  },
-  "layout3": {
-    "label": "Grid"
+    "placeholder": "Choose a style",
+    "layout1": {
+      "label": "Default list"
+    },
+    "layout2": {
+      "label": "Card list"
+    },
+    "layout3": {
+      "label": "Grid"
+    }
   }
 }
