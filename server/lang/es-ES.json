@@ -32,6 +32,9 @@
     "hint": "Llenar el contenido utilizando el editor de texto",
     "placeholder": "Mi contenido"
   },
+  "image": {
+    "label": "Imagen"
+  },
   "listStyle": {
     "label": "Estilo de lista",
     "hint": "Elija el estilo de lista del contenido",
