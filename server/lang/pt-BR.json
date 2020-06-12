@@ -38,13 +38,13 @@
     "hint": "Escolha o estilo da lista de conteúdos",
     "placeholder": "Escolha um estilo"
   },
-  "layout-1": {
+  "layout1": {
     "label": "Lista padrão"
   },
-  "layout-2": {
+  "layout2": {
     "label": "Lista cartão"
   },
-  "layout-3": {
+  "layout3": {
     "label": "Gride"
   }
 }

@@ -37,13 +37,13 @@
     "hint": "Choose the content list style",
     "placeholder": "Choose a style"
   },
-  "layout-1": {
+  "layout1": {
     "label": "Default list"
   },
-  "layout-2": {
+  "layout2": {
     "label": "Card list"
   },
-  "layout-3": {
+  "layout3": {
     "label": "Grid"
   }
 }
