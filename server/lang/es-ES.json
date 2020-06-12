@@ -37,15 +37,9 @@
     "hint": "Elija el estilo de lista del contenido",
     "placeholder": "Elija un estilo",
     "options": {
-      "layout1": {
-        "label": "Lista estándar"
-      },
-      "layout2": {
-        "label": "Lista de tarjetas"
-      },
-      "layout3": {
-        "label": "Cuadrícula"
-      }
+      "layout1": "Lista estándar",
+      "layout2": "Lista de tarjetas",
+      "layout3": "Cuadrícula"
     }
   }
 }

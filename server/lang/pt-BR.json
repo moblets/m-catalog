@@ -38,15 +38,9 @@
     "hint": "Escolha o estilo da lista de conteúdos",
     "placeholder": "Escolha um estilo",
     "options": {
-      "layout1": {
-        "label": "Lista padrão"
-      },
-      "layout2": {
-        "label": "Lista cartão"
-      },
-      "layout3": {
-        "label": "Gride"
-      }
+      "layout1": "Lista padrão",
+      "layout2": "Lista cartão",
+      "layout3": "Gride"
     }
   }
 }

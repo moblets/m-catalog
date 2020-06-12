@@ -37,15 +37,9 @@
     "hint": "Choose the content list style",
     "placeholder": "Choose a style",
     "options": {
-      "layout1": {
-        "label": "Default list"
-      },
-      "layout2": {
-        "label": "Card list"
-      },
-      "layout3": {
-        "label": "Grid"
-      }
+      "layout1": "Default list",
+      "layout2": "Card list",
+      "layout3": "Grid"
     }
   }
 }
