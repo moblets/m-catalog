@@ -36,14 +36,16 @@
     "label": "Estilo de lista",
     "hint": "Elija el estilo de lista del contenido",
     "placeholder": "Elija un estilo",
-    "layout1": {
-      "label": "Lista estándar"
-    },
-    "layout2": {
-      "label": "Lista de tarjetas"
-    },
-    "layout3": {
-      "label": "Cuadrícula"
+    "options": {
+      "layout1": {
+        "label": "Lista estándar"
+      },
+      "layout2": {
+        "label": "Lista de tarjetas"
+      },
+      "layout3": {
+        "label": "Cuadrícula"
+      }
     }
   }
 }
