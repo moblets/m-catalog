@@ -36,10 +36,8 @@
     "label": "List style",
     "hint": "Choose the content list style",
     "placeholder": "Choose a style",
-    "options": {
-      "layout1": "Default list",
-      "layout2": "Card list",
-      "layout3": "Grid"
-    }
+    "list_type_1": "Default list",
+    "list_type_2": "Card list",
+    "list_type_3": "Grid"
   }
 }
