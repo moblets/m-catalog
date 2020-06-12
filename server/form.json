@@ -81,11 +81,6 @@
       "name": "listStyle",
       "type": "select",
       "required": true,
-      "values": {
-        "layout-1": "list_type_1",
-        "layout-2": "list_type_2",
-        "layout-3": "list_type_3"
-      },
       "options": [
         { "value": "layout-1", "name": "list_type_1" },
         { "value": "layout-2", "name": "list_type_2" },
