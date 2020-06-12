@@ -35,7 +35,9 @@
   "listStyle": {
     "label": "List style",
     "hint": "Choose the content list style",
-    "placeholder": "Choose a style",
+    "placeholder": "Choose a style"
+  },
+  "options": {
     "list_type_1": "Default list",
     "list_type_2": "Card list",
     "list_type_3": "Grid"
