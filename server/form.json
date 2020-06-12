@@ -81,11 +81,11 @@
       "name": "listStyle",
       "type": "select",
       "required": true,
-      "options": {
-        "layout-1": "list_type_1",
-        "layout-2": "list_type_2",
-        "layout-3": "list_type_3"
-      },
+      "values": [
+        { "value": "layout-1", "layout-1": "list_type_1" },
+        { "value": "layout-2", "layout-2": "list_type_2" },
+        { "value": "layout-3", "layout-3": "list_type_3" }
+      ],
       "validations": [{ "name": "required" }]
     }
   ]
