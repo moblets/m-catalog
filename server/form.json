@@ -86,6 +86,11 @@
         { "value": "layout-2", "name": "list_type_2" },
         { "value": "layout-3", "name": "list_type_3" }
       ],
+      "values": {
+        "layout-1": "list_type_1",
+        "layout-2": "list_type_2",
+        "layout-3": "list_type_3"
+      },
       "validations": [{ "name": "required" }]
     }
   ]
