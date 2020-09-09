@@ -42,5 +42,9 @@
     "list_type_1": "Default list",
     "list_type_2": "Card list",
     "list_type_3": "Grid"
+  },
+  "phone": {
+    "label": "Mobile",
+    "hint": "Enter a WhatsApp number to receive the order"
   }
 }

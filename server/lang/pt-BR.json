@@ -43,5 +43,9 @@
     "list_type_1": "Lista padrão",
     "list_type_2": "Lista cartão",
     "list_type_3": "Gride"
+  },
+  "phone": {
+    "label": "Telefone",
+    "hint": "Insira um número de WhatsApp para receber o pedido"
   }
 }

@@ -30,22 +30,19 @@
         },
         {
           "name": "currency",
-          "type": "input",
-          "inputType": "text",
-          "maxlength": 3,
-          "validations": [{ "name": "maxLength", "value": 3 }]
+          "type": "selectCurrency",
+          "required": true,
+          "validations": [{ "name": "required" }]
         },
         {
           "name": "value",
-          "type": "input",
-          "inputType": "text",
+          "type": "inputPrice",
           "maxlength": 50,
           "validations": [{ "name": "maxLength", "value": 50 }]
         },
         {
           "name": "promoValue",
-          "type": "input",
-          "inputType": "text",
+          "type": "inputPrice",
           "maxlength": 50,
           "validations": [{ "name": "maxLength", "value": 50 }]
         },
@@ -92,6 +89,12 @@
         "layout-3": "list_type_3"
       },
       "validations": [{ "name": "required" }]
+    },
+    {
+      "name": "phone",
+      "type": "inputTel",
+      "required": true,
+      "validations": [{ "name": "required" }, { "name": "phoneNumber" }]
     }
   ]
 }
