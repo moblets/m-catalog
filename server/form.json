@@ -24,7 +24,10 @@
     },
     {
       "name": "shoppingCart",
-      "type": "toggle"
+      "type": "toggle",
+      "help": {
+        "url": "https://ajuda.fabapp.com/pt-BR/articles/3784032-icones-das-abas"
+      }
     },
     {
       "name": "ddi"
