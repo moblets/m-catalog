@@ -95,6 +95,9 @@
       "type": "toggle"
     },
     {
+      "name": "ddi"
+    },
+    {
       "name": "phone",
       "type": "inputTel",
       "hidden": "shoppingCart",
