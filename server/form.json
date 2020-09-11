@@ -29,12 +29,6 @@
           ]
         },
         {
-          "name": "currency",
-          "type": "selectCurrency",
-          "required": true,
-          "validations": [{ "name": "required" }]
-        },
-        {
           "name": "value",
           "type": "inputPrice",
           "maxlength": 50,
@@ -73,6 +67,12 @@
           ]
         }
       ]
+    },
+    {
+      "name": "currency",
+      "type": "selectCurrency",
+      "required": true,
+      "validations": [{ "name": "required" }]
     },
     {
       "name": "listStyle",
