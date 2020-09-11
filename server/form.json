@@ -1,6 +1,42 @@
 {
   "fields": [
     {
+      "name": "listStyle",
+      "type": "select",
+      "required": true,
+      "options": [
+        { "value": "layout-1", "name": "list_type_1" },
+        { "value": "layout-2", "name": "list_type_2" },
+        { "value": "layout-3", "name": "list_type_3" }
+      ],
+      "values": {
+        "layout-1": "list_type_1",
+        "layout-2": "list_type_2",
+        "layout-3": "list_type_3"
+      },
+      "validations": [{ "name": "required" }]
+    },
+    {
+      "name": "currency",
+      "type": "selectCurrency",
+      "required": true,
+      "validations": [{ "name": "required" }]
+    },
+    {
+      "name": "shoppingCart",
+      "type": "toggle"
+    },
+    {
+      "name": "ddi"
+    },
+    {
+      "name": "phone",
+      "type": "inputTel",
+      "hidden": "shoppingCart",
+      "required": true,
+      "validations": [{ "name": "required" }, { "name": "phoneNumber" }]
+    },
+    {
       "name": "items",
       "type": "list",
       "fields": [
@@ -67,42 +103,6 @@
           ]
         }
       ]
-    },
-    {
-      "name": "currency",
-      "type": "selectCurrency",
-      "required": true,
-      "validations": [{ "name": "required" }]
-    },
-    {
-      "name": "listStyle",
-      "type": "select",
-      "required": true,
-      "options": [
-        { "value": "layout-1", "name": "list_type_1" },
-        { "value": "layout-2", "name": "list_type_2" },
-        { "value": "layout-3", "name": "list_type_3" }
-      ],
-      "values": {
-        "layout-1": "list_type_1",
-        "layout-2": "list_type_2",
-        "layout-3": "list_type_3"
-      },
-      "validations": [{ "name": "required" }]
-    },
-    {
-      "name": "shoppingCart",
-      "type": "toggle"
-    },
-    {
-      "name": "ddi"
-    },
-    {
-      "name": "phone",
-      "type": "inputTel",
-      "hidden": "shoppingCart",
-      "required": true,
-      "validations": [{ "name": "required" }, { "name": "phoneNumber" }]
     }
   ]
 }
