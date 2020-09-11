@@ -19,7 +19,8 @@
     "placeholder": "Mi descripción"
   },
   "currency": {
-    "label": "Moneda"
+    "label": "Moneda",
+    "description": "Esta moneda se aplicará a todos los productos de su catalogo"
   },
   "value": {
     "label": "Valor"
