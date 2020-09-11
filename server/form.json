@@ -91,8 +91,13 @@
       "validations": [{ "name": "required" }]
     },
     {
+      "name": "shoppingCart",
+      "type": "toggle"
+    },
+    {
       "name": "phone",
       "type": "inputTel",
+      "hidden": "shoppingCart",
       "required": true,
       "validations": [{ "name": "required" }, { "name": "phoneNumber" }]
     }

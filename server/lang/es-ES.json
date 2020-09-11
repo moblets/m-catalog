@@ -43,6 +43,10 @@
     "list_type_2": "Lista de tarjetas",
     "list_type_3": "Cuadrícula"
   },
+  "shoppingCart": {
+    "label": "Habilitar carrito de compras",
+    "title": "Carrito de la compra"
+  },
   "phone": {
     "label": "Teléfono móvil",
     "hint": "Ingrese un número de WhatsApp para recibir el pedido"

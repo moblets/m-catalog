@@ -43,6 +43,10 @@
     "list_type_2": "Card list",
     "list_type_3": "Grid"
   },
+  "shoppingCart": {
+    "label": "Enable shopping cart",
+    "title": "Shopping cart"
+  },
   "phone": {
     "label": "Mobile",
     "hint": "Enter a WhatsApp number to receive the order"
