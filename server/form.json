@@ -37,7 +37,6 @@
       "name": "phone",
       "type": "inputTel",
       "hidden": "shoppingCart",
-      "required": true,
       "validations": [{ "name": "required" }, { "name": "phoneNumber" }]
     },
     {
