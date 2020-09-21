@@ -31,8 +31,12 @@
         {
           "name": "value",
           "type": "inputPrice",
+          "required": true,
           "maxlength": 50,
-          "validations": [{ "name": "maxLength", "value": 50 }]
+          "validations": [
+            { "name": "required" },
+            { "name": "maxLength", "value": 50 }
+          ]
         },
         {
           "name": "promoValue",

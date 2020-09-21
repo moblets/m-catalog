@@ -19,13 +19,9 @@
           "maxlength": 30
         },
         {
-          "name": "currency",
-          "type": "text",
-          "maxlength": 3
-        },
-        {
           "name": "value",
           "type": "text",
+          "required": true,
           "maxlength": 50
         },
         {
