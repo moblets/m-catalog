@@ -50,7 +50,7 @@
     "title": "Carrinho de compras"
   },
   "phone": {
-    "label": "Telefone",
+    "label": "WhatsApp",
     "hint": "Insira um número de WhatsApp para receber o pedido"
   }
 }

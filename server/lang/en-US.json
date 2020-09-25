@@ -49,7 +49,7 @@
     "title": "Shopping cart"
   },
   "phone": {
-    "label": "Mobile",
+    "label": "WhatsApp",
     "hint": "Enter a WhatsApp number to receive the order"
   }
 }

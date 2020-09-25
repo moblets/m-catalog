@@ -49,7 +49,7 @@
     "title": "Carrito de la compra"
   },
   "phone": {
-    "label": "Teléfono móvil",
+    "label": "WhatsApp",
     "hint": "Ingrese un número de WhatsApp para recibir el pedido"
   }
 }
