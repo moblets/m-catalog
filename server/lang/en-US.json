@@ -23,10 +23,12 @@
     "description": "This currency will be applied to all products in your catalog"
   },
   "value": {
-    "label": "Value"
+    "label": "Value",
+    "placeholder": "12.34"
   },
   "promoValue": {
-    "label": "Promotional value"
+    "label": "Promotional value",
+    "placeholder": "12.34"
   },
   "description": {
     "label": "Content",

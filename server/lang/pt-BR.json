@@ -25,11 +25,11 @@
   },
   "value": {
     "label": "Valor",
-    "placeholder": "12,34"
+    "placeholder": "12.34"
   },
   "promoValue": {
     "label": "Valor promocional",
-    "placeholder": "12,34"
+    "placeholder": "12.34"
   },
   "description": {
     "label": "Conteúdo",

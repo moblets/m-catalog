@@ -98,7 +98,7 @@
       "name": "shoppingCart",
       "type": "toggle",
       "help": {
-        "url": "https://ajuda.fabapp.com/pt-BR/articles/3784032-icones-das-abas"
+        "url": "https://ajuda.fabapp.com/pt-BR/articles/4477549-catalogo"
       },
       "conditions": ["appLogin"]
     },
