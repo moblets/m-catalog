@@ -24,10 +24,12 @@
     "description": "Essa moeda será aplicada em todos os produtos do seu catálogo"
   },
   "value": {
-    "label": "Valor"
+    "label": "Valor",
+    "placeholder": "12,34"
   },
   "promoValue": {
-    "label": "Valor promocional"
+    "label": "Valor promocional",
+    "placeholder": "12,34"
   },
   "description": {
     "label": "Conteúdo",

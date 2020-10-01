@@ -20,13 +20,13 @@
         },
         {
           "name": "value",
-          "type": "number",
+          "type": "text",
           "required": true,
           "maxlength": 50
         },
         {
           "name": "promoValue",
-          "type": "number",
+          "type": "text",
           "maxlength": 50
         },
         {
