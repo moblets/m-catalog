@@ -30,7 +30,8 @@
         },
         {
           "name": "currency",
-          "type": "text",
+          "type": "input",
+          "inputType": "text",
           "maxlength": 3,
           "validations": [{ "name": "maxLength", "value": 3 }]
         },
