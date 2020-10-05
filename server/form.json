@@ -29,6 +29,12 @@
           ]
         },
         {
+          "name": "currency",
+          "type": "text",
+          "maxlength": 3,
+          "validations": [{ "name": "maxLength", "value": 3 }]
+        },
+        {
           "name": "value",
           "type": "inputPrice",
           "required": true,
