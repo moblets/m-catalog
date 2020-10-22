@@ -39,6 +39,9 @@
   "image": {
     "label": "Imagem"
   },
+  "images": {
+    "label": "Imagens"
+  },
   "listStyle": {
     "label": "Estilo da lista",
     "hint": "Escolha o estilo da lista de conteúdos",

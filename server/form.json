@@ -105,6 +105,28 @@
           "validations": [{ "name": "required" }]
         },
         {
+          "name": "images",
+          "type": "multipleImagesUploader",
+          "formats": ["image/png", "image/jpg", "image/jpeg"],
+          "maxSize": 5000000,
+          "maxImages": 5,
+          "api": "moblet-api",
+          "fileConfig": [
+            {
+              "title": "imageSize",
+              "value": "750 x 1334 pixels"
+            },
+            {
+              "title": "maxSize",
+              "value": "5MB"
+            },
+            {
+              "title": "fileFormat",
+              "value": "PNG, JPG, JPEG"
+            }
+          ]
+        },
+        {
           "name": "description",
           "type": "richtext",
           "required": true,
