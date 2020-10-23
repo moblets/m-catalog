@@ -106,24 +106,15 @@
         {
           "name": "images",
           "type": "multipleImagesUploader",
-          "formats": ["image/png", "image/jpg", "image/jpeg"],
-          "maxSize": 5000000,
-          "maxImages": 5,
           "api": "moblet-api",
           "fileConfig": [
-            {
-              "title": "imageSize",
-              "value": "750 x 1334 pixels"
-            },
-            {
-              "title": "maxSize",
-              "value": "5MB"
-            },
-            {
-              "title": "fileFormat",
-              "value": "PNG, JPG, JPEG"
-            }
-          ]
+            { "title": "imageSize", "value": "750 x 600 pixels" },
+            { "title": "maxSize", "value": "12MB" },
+            { "title": "fileFormat", "value": "PNG, JPG, JPEG" }
+          ],
+          "formats": ["image/png", "image/jpg", "image/jpeg"],
+          "maxImages": 5,
+          "maxSize": 12000000
         },
         {
           "name": "description",
