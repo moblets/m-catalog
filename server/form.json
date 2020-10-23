@@ -121,6 +121,16 @@
           "maxSize": 12000000
         },
         {
+          "name": "youtubeLink",
+          "type": "input",
+          "inputType": "url",
+          "placeholder": "https://www.youtube.com/watch?v=Nrwom2TleF8",
+          "pattern": "(https?)?(?:.+?)?(?:\/v\/|watch\/|[?]v=|&v=|youtu.be\/|\/v=|^youtu.be\/|watch%3Fv%3D)([a-zA-Z0-9_&=%-]+)",
+          "validations": [
+            { "name": "pattern", "value": "(https?)?(?:.+?)?(?:\/v\/|watch\/|[?]v=|&v=|youtu.be\/|\/v=|^youtu.be\/|watch%3Fv%3D)([a-zA-Z0-9_&=%-]+)" }
+          ]
+        },
+        {
           "name": "description",
           "type": "richtext",
           "required": true,

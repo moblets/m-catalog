@@ -41,6 +41,9 @@
   "images": {
     "label": "Imagenes"
   },
+  "youtubeLink": {
+    "label": "Enlace de YouTube"
+  },
   "search": {
     "label": "Habilita la búsqueda en esta pestaña"
   },

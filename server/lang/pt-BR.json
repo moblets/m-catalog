@@ -42,6 +42,9 @@
   "images": {
     "label": "Imagens"
   },
+  "youtubeLink": {
+    "label": "Link do YouTube"
+  },
   "search": {
     "label": "Ativar busca nesta aba"
   },

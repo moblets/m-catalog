@@ -41,6 +41,9 @@
   "images": {
     "label": "Images"
   },
+  "youtubeLink": {
+    "label": "YouTube link"
+  },
   "search": {
     "label": "Enable search on this tab"
   },
