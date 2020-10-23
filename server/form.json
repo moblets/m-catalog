@@ -101,7 +101,6 @@
           ],
           "formats": ["image/png", "image/jpg", "image/jpeg", "image/gif"],
           "maxSize": 12000000,
-          "required": true,
           "validations": [{ "name": "required" }]
         },
         {
