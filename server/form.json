@@ -1,6 +1,10 @@
 {
   "fields": [
     {
+      "name": "search",
+      "type": "toggle"
+    },
+    {
       "name": "listStyle",
       "type": "select",
       "required": true,

@@ -41,6 +41,9 @@
   "images": {
     "label": "Images"
   },
+  "search": {
+    "label": "Enable search on this tab"
+  },
   "listStyle": {
     "label": "List style",
     "hint": "Choose the content list style",

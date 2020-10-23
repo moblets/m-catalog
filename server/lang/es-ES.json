@@ -41,6 +41,9 @@
   "images": {
     "label": "Imagenes"
   },
+  "search": {
+    "label": "Habilita la búsqueda en esta pestaña"
+  },
   "listStyle": {
     "label": "Estilo de lista",
     "hint": "Elija el estilo de lista del contenido",
