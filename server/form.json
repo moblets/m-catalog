@@ -108,7 +108,7 @@
           "type": "multipleImagesUploader",
           "api": "moblet-api",
           "fileConfig": [
-            { "title": "imageSize", "value": "750 x 600 pixels" },
+            { "title": "suggestedAspectRatio", "value": "750 x 600 pixels" },
             { "title": "maxSize", "value": "12MB" },
             { "title": "fileFormat", "value": "PNG, JPG, JPEG" }
           ],
