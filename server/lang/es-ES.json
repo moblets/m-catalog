@@ -63,5 +63,11 @@
   "phone": {
     "label": "WhatsApp",
     "hint": "Ingrese un número de WhatsApp para recibir el pedido"
+  },
+  "deliveryMethod": {
+    "label": "Métodos de envío",
+    "description": "Activa los métodos de entrega que admite la Tienda Virtual.",
+    "delivery": "Delivery",
+    "takeaway": "Para llevar"
   }
 }

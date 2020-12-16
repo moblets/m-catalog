@@ -37,7 +37,17 @@
       "name": "phone",
       "type": "inputTel",
       "hidden": "shoppingCart",
+      "required": true,
       "validations": [{ "name": "required" }, { "name": "phoneNumber" }]
+    },
+    {
+      "name": "deliveryMethod",
+      "type": "multipleToggles",
+      "required": false,
+      "options": [
+        { "id": 1, "name": "delivery" },
+        { "id": 2, "name": "takeaway" }
+      ]
     },
     {
       "name": "items",

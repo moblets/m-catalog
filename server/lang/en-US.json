@@ -63,5 +63,11 @@
   "phone": {
     "label": "WhatsApp",
     "hint": "Enter a WhatsApp number to receive the order"
+  },
+  "deliveryMethod": {
+    "label": "Delivery methods",
+    "description": "Activate the delivery methods that the Virtual Store supports.",
+    "delivery": "Delivery",
+    "takeaway": "Takeaway"
   }
 }
