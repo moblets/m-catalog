@@ -37,13 +37,13 @@
       "name": "phone",
       "type": "inputTel",
       "hidden": [{ "name": "shoppingCart", "value": true }],
-      "required": true,
+      "required": false,
       "validations": [{ "name": "required" }, { "name": "phoneNumber" }]
     },
     {
       "name": "deliveryMethod",
       "type": "multipleToggles",
-      "required": true,
+      "required": false,
       "validations": [{ "name": "required" }],
       "options": [
         { "id": 1, "name": "delivery" },
@@ -54,14 +54,14 @@
       "name": "takeawayAddress",
       "type": "input",
       "hidden": [{ "name": "deliveryMethod", "value": 2 }],
-      "required": true,
+      "required": false,
       "validations": [{ "name": "required" }]
     },
     {
       "name": "takeawayAddressNumber",
       "type": "input",
       "hidden": [{ "name": "deliveryMethod", "value": 2 }],
-      "required": true,
+      "required": false,
       "validations": [{ "name": "required" }]
     },
     {
