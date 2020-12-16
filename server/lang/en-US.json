@@ -69,5 +69,14 @@
     "description": "Activate the delivery methods that the Virtual Store supports.",
     "delivery": "Delivery",
     "takeaway": "Takeaway"
+  },
+  "takeawayAddress": {
+    "label": "Address"
+  },
+  "takeawayAddressNumber": {
+    "label": "Number"
+  },
+  "takeawayAddressComplement": {
+    "label": "Complement"
   }
 }

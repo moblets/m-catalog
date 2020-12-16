@@ -69,5 +69,14 @@
     "description": "Activa los métodos de entrega que admite la Tienda Virtual.",
     "delivery": "Delivery",
     "takeaway": "Para llevar"
+  },
+  "takeawayAddress": {
+    "label": "Dirección"
+  },
+  "takeawayAddressNumber": {
+    "label": "Número"
+  },
+  "takeawayAddressComplement": {
+    "label": "Complemento"
   }
 }

@@ -36,18 +36,38 @@
     {
       "name": "phone",
       "type": "inputTel",
-      "hidden": "shoppingCart",
+      "hidden": [{ "name": "shoppingCart", "value": true }],
       "required": true,
       "validations": [{ "name": "required" }, { "name": "phoneNumber" }]
     },
     {
       "name": "deliveryMethod",
       "type": "multipleToggles",
-      "required": false,
+      "required": true,
+      "validations": [{ "name": "required" }],
       "options": [
         { "id": 1, "name": "delivery" },
         { "id": 2, "name": "takeaway" }
       ]
+    },
+    {
+      "name": "takeawayAddress",
+      "type": "input",
+      "hidden": [{ "name": "deliveryMethod", "value": 2 }],
+      "required": true,
+      "validations": [{ "name": "required" }]
+    },
+    {
+      "name": "takeawayAddressNumber",
+      "type": "input",
+      "hidden": [{ "name": "deliveryMethod", "value": 2 }],
+      "required": true,
+      "validations": [{ "name": "required" }]
+    },
+    {
+      "name": "takeawayAddressComplement",
+      "type": "input",
+      "hidden": [{ "name": "deliveryMethod", "value": 2 }]
     },
     {
       "name": "items",

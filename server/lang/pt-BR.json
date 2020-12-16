@@ -69,5 +69,14 @@
     "description": "Ative os métodos de entrega que a Loja Virtual atende.",
     "delivery": "Delivery",
     "takeaway": "Retirada no local"
+  },
+  "takeawayAddress": {
+    "label": "Endereço"
+  },
+  "takeawayAddressNumber": {
+    "label": "Número"
+  },
+  "takeawayAddressComplement": {
+    "label": "Complemento"
   }
 }
