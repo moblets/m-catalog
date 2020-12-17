@@ -36,7 +36,6 @@
     {
       "name": "phone",
       "type": "inputTel",
-      "display": false,
       "hidden": [{ "name": "shoppingCart", "value": true }],
       "validations": [{ "name": "required" }, { "name": "phoneNumber" }]
     },
@@ -52,21 +51,18 @@
     {
       "name": "takeawayAddress",
       "type": "input",
-      "display": false,
       "hidden": [{ "name": "deliveryMethod", "value": 2 }],
       "validations": [{ "name": "required" }]
     },
     {
       "name": "takeawayAddressNumber",
       "type": "input",
-      "display": false,
       "hidden": [{ "name": "deliveryMethod", "value": 2 }],
       "validations": [{ "name": "required" }]
     },
     {
       "name": "takeawayAddressComplement",
       "type": "input",
-      "display": false,
       "hidden": [{ "name": "deliveryMethod", "value": 2 }]
     },
     {
