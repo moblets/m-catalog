@@ -42,7 +42,6 @@
     {
       "name": "deliveryMethod",
       "type": "multipleToggles",
-      "validations": [{ "name": "required" }],
       "options": [
         { "id": 1, "name": "delivery" },
         { "id": 2, "name": "takeaway" }
