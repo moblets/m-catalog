@@ -71,6 +71,8 @@
     "takeaway": "Para llevar"
   },
   "takeawayAddress": {
+    "title": "Dirección de recogida",
+    "description": "Introduzca la información de la dirección del lugar de recogida.",
     "label": "Dirección"
   },
   "takeawayAddressNumber": {

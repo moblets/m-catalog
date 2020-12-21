@@ -71,6 +71,8 @@
     "takeaway": "Retirada no local"
   },
   "takeawayAddress": {
+    "title": "Endereço do local de retirada",
+    "description": "Insira as informações do endereço do local de retirada da compra.",
     "label": "Endereço"
   },
   "takeawayAddressNumber": {

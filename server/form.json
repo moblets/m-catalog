@@ -40,7 +40,7 @@
       "validations": [{ "name": "required" }, { "name": "phoneNumber" }]
     },
     {
-      "name": "deliveryMethod",
+      "name": "deliveryMethodIds",
       "type": "multipleToggles",
       "options": [
         { "id": 1, "name": "delivery" },
@@ -51,18 +51,30 @@
       "name": "takeawayAddress",
       "type": "input",
       "hidden": [{ "name": "deliveryMethod", "value": 2 }],
-      "validations": [{ "name": "required" }]
+      "maxlength": 250,
+      "validations": [
+        { "name": "required" },
+        { "name": "maxLength", "value": 250 }
+      ]
     },
     {
       "name": "takeawayAddressNumber",
       "type": "input",
       "hidden": [{ "name": "deliveryMethod", "value": 2 }],
-      "validations": [{ "name": "required" }]
+      "maxlength": 250,
+      "validations": [
+        { "name": "required" },
+        { "name": "maxLength", "value": 250 }
+      ]
     },
     {
       "name": "takeawayAddressComplement",
       "type": "input",
-      "hidden": [{ "name": "deliveryMethod", "value": 2 }]
+      "hidden": [{ "name": "deliveryMethod", "value": 2 }],
+      "maxlength": 250,
+      "validations": [
+        { "name": "maxLength", "value": 250 }
+      ]
     },
     {
       "name": "items",

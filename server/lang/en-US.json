@@ -71,6 +71,8 @@
     "takeaway": "Takeaway"
   },
   "takeawayAddress": {
+    "title": "Pick-up address",
+    "description": "Enter the address information for the pick-up location.",
     "label": "Address"
   },
   "takeawayAddressNumber": {
