@@ -50,7 +50,7 @@
     {
       "name": "takeawayAddress",
       "type": "input",
-      "hidden": [{ "name": "deliveryMethod", "value": 2 }],
+      "hidden": [{ "name": "deliveryMethodIds", "value": 2 }],
       "maxlength": 250,
       "validations": [
         { "name": "required" },
@@ -60,7 +60,7 @@
     {
       "name": "takeawayAddressNumber",
       "type": "input",
-      "hidden": [{ "name": "deliveryMethod", "value": 2 }],
+      "hidden": [{ "name": "deliveryMethodIds", "value": 2 }],
       "maxlength": 250,
       "validations": [
         { "name": "required" },
@@ -70,7 +70,7 @@
     {
       "name": "takeawayAddressComplement",
       "type": "input",
-      "hidden": [{ "name": "deliveryMethod", "value": 2 }],
+      "hidden": [{ "name": "deliveryMethodIds", "value": 2 }],
       "maxlength": 250,
       "validations": [
         { "name": "maxLength", "value": 250 }
