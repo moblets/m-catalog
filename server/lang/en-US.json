@@ -64,7 +64,7 @@
     "label": "WhatsApp",
     "hint": "Enter a WhatsApp number to receive the order"
   },
-  "deliveryMethod": {
+  "deliveryMethodIds": {
     "label": "Delivery methods",
     "description": "Activate the delivery methods that the Virtual Store supports.",
     "delivery": "Delivery",

@@ -64,7 +64,7 @@
     "label": "WhatsApp",
     "hint": "Insira um número de WhatsApp para receber o pedido"
   },
-  "deliveryMethod": {
+  "deliveryMethodIds": {
     "label": "Métodos de entrega",
     "description": "Ative os métodos de entrega que a Loja Virtual atende.",
     "delivery": "Delivery",
