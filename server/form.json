@@ -77,6 +77,12 @@
       ]
     },
     {
+      "name": "panelRedirector",
+      "type": "panelRedirector",
+      "image_url": "https://picsum.photos/200",
+      "buttonLink": "loja-virtual/produtos"
+    },
+    {
       "name": "items",
       "type": "list",
       "fields": [

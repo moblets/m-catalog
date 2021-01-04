@@ -80,5 +80,10 @@
   },
   "takeawayAddressComplement": {
     "label": "Complemento"
+  },
+  "panelRedirector": {
+    "title": "Gerenciar produtos e pedidos",
+    "description": "Criamos uma área exclusiva em nosso painel para facilitar o gerenciamento dos seus produtos e pedidos",
+    "buttonLabel": "Acessar gerenciador"
   }
 }

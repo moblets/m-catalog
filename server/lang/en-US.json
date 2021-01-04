@@ -80,5 +80,10 @@
   },
   "takeawayAddressComplement": {
     "label": "Complement"
+  },
+  "panelRedirector": {
+    "title": "Manage products and orders",
+    "description": "We created an exclusive area on our panel to make it easier to manage your products and orders",
+    "buttonLabel": "Access manager"
   }
 }
