@@ -64,6 +64,13 @@
     "label": "WhatsApp",
     "hint": "Enter a WhatsApp number to receive the order"
   },
+  "paymentMethodIds": {
+    "label": "Payment methods",
+    "description": "Activate the payment methods that the Virtual Store supports.",
+    "debitCard": "Debit card",
+    "creditCard": "Credit card",
+    "cash": "Cash"
+  },
   "deliveryMethodIds": {
     "label": "Delivery methods",
     "description": "Activate the delivery methods that the Virtual Store supports.",

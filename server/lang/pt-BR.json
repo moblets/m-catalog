@@ -64,6 +64,13 @@
     "label": "WhatsApp",
     "hint": "Insira um número de WhatsApp para receber o pedido"
   },
+  "paymentMethodIds": {
+    "label": "Métodos de pagamento",
+    "description": "Ative os métodos de pagamento que a Loja Virtual atende.",
+    "debitCard": "Cartão de débito",
+    "creditCard": "Cartão de crédito",
+    "cash": "Dinheiro"
+  },
   "deliveryMethodIds": {
     "label": "Métodos de entrega",
     "description": "Ative os métodos de entrega que a Loja Virtual atende.",

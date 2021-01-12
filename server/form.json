@@ -40,6 +40,15 @@
       "validations": [{ "name": "required" }, { "name": "phoneNumber" }]
     },
     {
+      "name": "paymentMethodIds",
+      "type": "multipleToggles",
+      "options": [
+        { "id": 1, "name": "debitCard" },
+        { "id": 2, "name": "creditCard" },
+        { "id": 3, "name": "cash" }
+      ]
+    },
+    {
       "name": "deliveryMethodIds",
       "type": "multipleToggles",
       "options": [
