@@ -67,8 +67,8 @@
   "paymentMethodIds": {
     "label": "Métodos de pagamento",
     "description": "Ative os métodos de pagamento que a Loja Virtual atende.",
-    "debitCard": "Cartão de débito",
     "creditCard": "Cartão de crédito",
+    "debitCard": "Cartão de débito",
     "cash": "Dinheiro"
   },
   "deliveryMethodIds": {

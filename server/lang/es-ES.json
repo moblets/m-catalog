@@ -67,8 +67,8 @@
   "paymentMethodIds": {
     "label": "Métodos de pago",
     "description": "Activa los métodos de pago que admite la Tienda Virtual.",
-    "debitCard": "Tarjeta de débito",
     "creditCard": "Tarjeta de crédito",
+    "debitCard": "Tarjeta de débito",
     "cash": "Dinero"
   },
   "deliveryMethodIds": {

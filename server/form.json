@@ -43,8 +43,8 @@
       "name": "paymentMethodIds",
       "type": "multipleToggles",
       "options": [
-        { "id": 1, "name": "debitCard" },
-        { "id": 2, "name": "creditCard" },
+        { "id": 1, "name": "creditCard" },
+        { "id": 2, "name": "debitCard" },
         { "id": 3, "name": "cash" }
       ]
     },

@@ -67,8 +67,8 @@
   "paymentMethodIds": {
     "label": "Payment methods",
     "description": "Activate the payment methods that the Virtual Store supports.",
-    "debitCard": "Debit card",
     "creditCard": "Credit card",
+    "debitCard": "Debit card",
     "cash": "Cash"
   },
   "deliveryMethodIds": {
